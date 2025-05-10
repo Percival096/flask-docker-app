@@ -1,0 +1,5 @@
+services:
+  web:
+    image: my-flask-app:1.0
+    ports:
+      - "5000:5000"
